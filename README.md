@@ -36,3 +36,7 @@ Transform: Clean and structure data using Pandas and regular expressions (RegEx)
 Deleting bad data (corrupted or missing), removing duplicate rows, and consolidating columns.
 Using RegEx to parse data and transform text into numbers.
 Load: Export transformed data into a database.
+
+## Summary
+
+The (Extract, Transform, Load) function created collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings CSV files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
